@@ -1,10 +1,11 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //                         COMPUTER METHODS 3 PRACTICAL TEST 1 (MOCK)
-// Name:
-// Student No:
-// Date: 
+// Name: Sanath Maharaj
+// Student No: 214528095
+// Date: 25 March 2016
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
+#include "Time.h"
 
 using namespace std;
 
@@ -22,7 +23,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
 
 	Time myTime(8, 40);									// instantiate time class 
-
+	
 	cout << "CM3 starts at " << myTime << endl;			// demonstrate overloaded stream insertion operator
 
 	myTime.set(10, 30);									// change the time
